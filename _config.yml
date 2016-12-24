@@ -1,1 +1,3 @@
 markdown: redcarpet
+baseurl: /Double_Ion
+exclude: ['README.md']
