@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="ro">
 {% include head.html %}
-  <body>
-        <header>
-        {% include nav.html navclass='nav-top' %}
-        </header>
-
-
-
-
-
-
-
-{{content}}
-<footer>
-{% include nav.html navclass='nav-top' %}
-</footer>
+  <body class="index">
+    {% include meniu.html %}
+    {% include banner.html %}
+    </div>
+    <div class="page-content">
+        {{ content }}
+    </div>
+    {% include footer.html %}
   </body>
 </html>
