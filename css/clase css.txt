@@ -1,0 +1,5 @@
+.browserupgrade - ceva legat de ce zice
+.hidden - Hide visually and from screen readers
+.visuallyhidden - Hide only visually, but have it available for screen readers
+.invisible - Hide visually and from screen readers, but maintain layout
+.clearfix:before, .clearfix:after - repar bug, vzi main.css

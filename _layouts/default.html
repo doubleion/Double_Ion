@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="ro">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{page.title}} · {% endif %}Double Ion</title>
-    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
-    <meta name="description" content="{{page.meta}}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+{% include head.html %}
   <body>
+        <header>
+        {% include nav.html navclass='nav-top' %}
+        </header>
 
 
 
@@ -16,11 +12,6 @@
 
 
 
-
-    <header>
-      <h1> Double Ion </h1>
-    {% include nav.html navclass='nav-top' %}
-    </header>
 {{content}}
 <footer>
 {% include nav.html navclass='nav-top' %}
